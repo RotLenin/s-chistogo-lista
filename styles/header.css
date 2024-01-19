@@ -7,9 +7,12 @@
     padding: 24px 20px;
 }
 
-.header__logo {
+.header__logo-link {
     width: 79px;
     height: 15.5px;
+}
+
+.header__logo {
     fill : var(--white);
     font-family: 'Inter regular', sans-serif;
 }

@@ -1,11 +1,13 @@
 .cover {
     padding: 10px 24px 5px 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
 
     background: url("../images/cover.svg") no-repeat 20px 180%;
     background-size: 95% 95%;
+}
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
 }
 
 .cover__span {
