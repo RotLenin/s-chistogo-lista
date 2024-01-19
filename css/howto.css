@@ -1,0 +1,29 @@
+.how-to {
+    padding-top: 40px;
+}
+
+.how-to-1__perfectFix {
+    padding-bottom: 36px;
+}
+
+.how-to__list {
+    list-style: outside disc;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.how-to__list-item {
+    vertical-align: text-top;
+    list-style: inherit;
+    margin-bottom: 16px;
+    line-height: 21px;
+}
+
+.how-to__list-item::marker {
+    font-size: 18px;
+}
+
+.how-to__list-item strong {
+    font-family: 'Inter bold', sans-serif;
+    margin-right: 4px;
+}

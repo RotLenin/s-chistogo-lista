@@ -1,0 +1,39 @@
+.content-section {
+    width: 100%;
+    padding : 40px 20px;
+}
+
+.content-section_black {
+    color : var(--white);
+    background-color: var(--black);
+}
+
+.content-section_yellow {
+    color : var(--black);
+    background-color: var(--yellow);
+}
+
+.content-section__title-wrapper {
+    margin-bottom: 32px;
+}
+
+.content-section__title {
+    font-family: 'EB Garamond medium', sans-serif;
+    font-size: 28px;
+    text-align: right;
+    line-height: 115%;
+}
+
+.content-section__subtitle {
+    font-family: 'Inter regular', sans-serif;
+    font-size: 20px;
+    line-height: 135%;
+    margin-bottom: 32px;
+    font-style: normal;
+}
+
+.content-section__p {
+    font-family: 'Inter regular', sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
