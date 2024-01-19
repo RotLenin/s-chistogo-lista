@@ -3,20 +3,22 @@
 }
 
 .how-to-1__perfectFix {
-    padding-bottom: 36px;
+    padding-bottom: 40px;
 }
 
 .how-to__list {
+    margin-left: 15px;
+    padding-left: 2px;
+    margin-top: -1px;
     list-style: outside disc;
-    padding-left: 18px;
     font-size: 16px;
 }
 
 .how-to__list-item {
     vertical-align: text-top;
     list-style: inherit;
-    margin-bottom: 16px;
-    line-height: 21px;
+    margin-bottom: 15px;
+    line-height: 21.6px;
 }
 
 .how-to__list-item::marker {
@@ -25,5 +27,5 @@
 
 .how-to__list-item strong {
     font-family: 'Inter bold', sans-serif;
-    margin-right: 4px;
+    margin-right: 2.5px;
 }
