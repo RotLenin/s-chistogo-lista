@@ -1,11 +1,11 @@
-@import "styles/reset.css";
-@import "styles/header.css";
-@import "styles/cover.css";
-@import "styles/section.css";
-@import "styles/intro.css";
-@import "styles/howto.css";
-@import "styles/card.css";
-@import "styles/footer.css";
+@import "reset.css";
+@import "header.css";
+@import "cover.css";
+@import "section.css";
+@import "intro.css";
+@import "howto.css";
+@import "card.css";
+@import "footer.css";
 
 * {
     margin: 0;
