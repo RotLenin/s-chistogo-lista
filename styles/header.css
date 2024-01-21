@@ -5,16 +5,16 @@
 
     width: 100%;
     padding: 24px 20px;
-}
 
-.header__logo-link {
-    width: 79px;
-    height: 15.5px;
+    background-color: var(--black);
 }
 
 .header__logo {
     fill : var(--white);
-    font-family: 'Inter regular', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    width: 79px;
+    height: 15.5px;
 }
 
 .nav__list {
@@ -23,7 +23,8 @@
 }
 
 .nav__item {
-    font-family: 'Inter regular', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 120%;
     color : var(--white);

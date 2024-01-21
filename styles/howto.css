@@ -25,7 +25,8 @@
     font-size: 18px;
 }
 
-.how-to__list-item strong {
-    font-family: 'Inter bold', sans-serif;
+.how-to__list-item_strong {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     margin-right: 2.5px;
 }
