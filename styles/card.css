@@ -1,0 +1,51 @@
+.card {
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+
+.card_gray {
+    color: var(--white);
+    background-color: var(--gray-card);
+}
+
+.card_yellow {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.card__avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.card__avatar-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+.card__avatar-author {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card__title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 8px;
+    line-height: 135%;
+}
+
+.card__info {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+}

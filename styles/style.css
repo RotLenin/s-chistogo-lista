@@ -1,0 +1,71 @@
+@import "reset.css";
+@import "header.css";
+@import "cover.css";
+@import "section.css";
+@import "intro.css";
+@import "howto.css";
+@import "card.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white : #fff;
+    --text-gray : #ccc;
+    --gray : #f5f5f5;
+    --gray-card : #343434;
+    --black : #131313;
+    --red : #f83c33;
+    --yellow : #fee42a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--gray-card);
+    line-height: 135%;
+}
+
+.block {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.main_perfectFix {
+    padding-bottom: 16px;
+    background-color: var(--black);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration-line: none;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.text-left {
+    text-align: left;
+}

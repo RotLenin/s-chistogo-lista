@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 18px;
+    padding: 20px;
+    border-top: 1px solid var(--yellow);
+
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+
+.footer__links {
+    display: flex;
+}
+
+.footer__link-item {
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.footer__link-item a {
+    color : var(--white);
+}

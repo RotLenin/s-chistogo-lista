@@ -1,0 +1,24 @@
+.cover {
+    padding: 10px 24px 5px 20px;
+
+    background: url("../images/cover.svg") no-repeat 20px 180%;
+    background-color: var(--black);
+    background-size: 95% 95%;
+}
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__span {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.cover__span_perfectFix {
+    margin-left: 4px;
+}
